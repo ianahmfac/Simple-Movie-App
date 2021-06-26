@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
         onTap: () => FocusManager.instance.primaryFocus!.unfocus(),
         child: MaterialApp.router(
           title: 'Simple Movie App',
+          debugShowCheckedModeBanner: false,
           theme: ThemeData(
             primarySwatch: Colors.indigo,
             accentColor: Colors.amber,
