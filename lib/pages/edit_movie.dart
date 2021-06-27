@@ -129,7 +129,7 @@ class _EditMovieState extends State<EditMovie> {
             : [
                 CustomTextButton(
                   title: 'SAVE',
-                  onPressed: () => _addMovie(),
+                  onPressed: _addMovie,
                 ),
               ],
       ),
